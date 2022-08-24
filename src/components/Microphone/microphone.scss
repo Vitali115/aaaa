@@ -1,0 +1,173 @@
+.MuiDialog-paperWidthSm {
+  max-width: 600px;
+
+  
+  flex: 1;
+  // @media screen and (max-width: 992px){
+    
+  // }
+}
+
+.audio {
+  color: white;
+  background-color: black;
+}
+input{
+  border: 2px solid rgb(15, 15, 15);
+  background-color: rgb(29, 29, 29);
+  color: white;
+
+}
+textarea:focus, input:focus {
+  color: white;
+}
+
+input, select, textarea{
+  color: white;
+}
+.audio1 {
+  background: transparentize(rgb(255, 255, 255), 0.9);
+
+  backdrop-filter: blur(5px);
+}
+
+.record--button {
+  background: linear-gradient(-25deg, #FFD9A7, black, #0a0a0a);
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite;
+
+  /* #FFD9A7 */
+  padding: 4px 280px 0;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+.record--button:hover {
+  background: linear-gradient(-25deg, #FFD9A7, #0a0a0a, #0a0a0a, #FFD9A7);
+}
+.record--button p {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 80% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.record--interactionss{
+  display: flex;
+  border: 2px solid rgb(15, 15, 15);
+  background-color: rgb(12, 12, 12);
+  padding: 1px 30px 0 20px;
+  border-radius: 8px;
+
+  padding-top: 5px;
+}
+.record--interactionss:hover{
+  border: 2px solid rgb(41, 41, 41);
+}
+.record--interactions{
+  display: flex;
+  border: 1px solid white;
+  padding: 1px 14px 0 6px;
+  border-radius: 8px;
+  padding-top: 5px;
+}
+.record--interactions-{
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+
+  padding: 1px 30px 0 20px;
+  border-radius: 8px;
+
+  padding-top: 5px;
+}
+.record--interactions-:hover{
+
+  background-color: rgb(12, 12, 12);
+}
+.wawe--recorded{
+margin-left: 12%;
+  width: 85%;
+  padding-bottom: 2px;
+}
+.play--butt{
+  margin-bottom: -130px;
+  margin-top: 60px;
+}
+
+
+.target{
+.post--data--user{
+background-color: black;
+border-radius: 12px;
+width: 100%;
+
+  img{
+    width: 45px;
+
+  }
+}
+}
+
+.button--record{
+
+}
+
+
+
+
+.done-{
+  
+
+  .button--done{
+    display: flex;
+    
+    justify-content: center;
+    border: 2px solid rgb(15, 15, 15);
+    background-color: rgb(12, 12, 12);
+    padding: 1px 30px 0 20px;
+    border-radius: 8px;
+ width: 549px;
+ 
+    padding-top: 5px;
+    @media screen and (max-width: 650px){
+      width: 77vw;
+    }
+  }
+}
+
+.explore--grids{
+  
+  display: flex;
+  margin: 20px 10px;
+  .post{
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 13px;
+    padding-left: 10px ;
+    margin-top: -20px;
+    margin-bottom: -7px;
+    width: 65px;
+    img{
+      width: 40px;
+  
+    }
+  
+  }
+  .post:hover{
+    border: 2px solid rgb(27, 27, 27);
+    
+  }
+}
+
+.button--box{
+  margin-bottom: -20px;
+}
